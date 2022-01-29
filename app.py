@@ -1,10 +1,11 @@
-from serch_address import search_address
+from search_address import search_address
 
 
 def main():
-    zipcode = '0287111'
+    zipcode = input('郵便番号<ハイフン無し7桁>は？')
 
     address = search_address(zipcode)
+
     print(address)
 
 
